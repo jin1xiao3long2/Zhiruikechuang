@@ -1,0 +1,3 @@
+C:\Users\XM\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7319.72\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\ZhiRui.dir/objects.a
+C:\BC\C\mingw64\bin\ar.exe cr CMakeFiles\ZhiRui.dir/objects.a @CMakeFiles\ZhiRui.dir\objects1.rsp
+C:\BC\C\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\ZhiRui.dir/objects.a -Wl,--no-whole-archive  -o ZhiRui.exe -Wl,--out-implib,libZhiRui.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ZhiRui.dir\linklibs.rsp

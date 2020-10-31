@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/CPP/ZhiRui/lottery.cpp
+iostream
+-
+vector
+-
+time.h
+-
+stdio.h
+-
+conio.h
+-
+windows.h
+-
+

@@ -1,0 +1,5 @@
+C:/CPP/ZhiRui/cmake-build-debug/CMakeFiles/Lottery.dir
+C:/CPP/ZhiRui/cmake-build-debug/CMakeFiles/move.dir
+C:/CPP/ZhiRui/cmake-build-debug/CMakeFiles/play.dir
+C:/CPP/ZhiRui/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/CPP/ZhiRui/cmake-build-debug/CMakeFiles/rebuild_cache.dir
