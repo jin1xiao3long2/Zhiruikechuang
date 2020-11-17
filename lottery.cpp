@@ -17,7 +17,6 @@ void show_numbers(const vector<int> &);     //show numbers
 
 void get_winner(vector<int> &, int);  //lottery
 
-
 void get_numbers(vector<int> &V) {
     int num;
     bool flag = true;
@@ -52,7 +51,7 @@ std::ostream &operator<<(std::ostream &out, const vector<int> &V) {
 }
 
 void show_numbers(const vector<int> &V) {
-    system("cls");
+    //system("cls");
     cout << "All members: " << endl;
     int changeLine = 0;
     for (auto &e : V) {
@@ -63,10 +62,11 @@ void show_numbers(const vector<int> &V) {
             changeLine = 0;
         }
     }
+    cout << endl;
 }
 
 void get_winner(vector<int> &V, int num) {
-    getchar();
+
     srand(time(0));
     int speed = 4;
     int winner[num], del[num];
@@ -99,15 +99,20 @@ void get_winner(vector<int> &V, int num) {
     for (int i = 0; i < num; i++) {
         V.erase(V.begin() + del[i] - i);
     }
+    cout << endl;
 }
 
 int main() {
     vector<int> vec;
     get_numbers(vec);
     std::cout << vec << endl;
+    system("cls");
     show_numbers(vec);
     get_winner(vec, 1);
+    cin.clear();
+    system("cls");
+    show_numbers(vec);
     get_winner(vec, 2);
-
+    system("pause");
     return 0;
 }

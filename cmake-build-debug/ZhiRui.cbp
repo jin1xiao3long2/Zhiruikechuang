@@ -143,6 +143,174 @@
 					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="th">
+				<Option output="C:/CPP/ZhiRui/cmake-build-debug/th.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/ZhiRui/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 th"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="th/fast">
+				<Option output="C:/CPP/ZhiRui/cmake-build-debug/th.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/ZhiRui/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 th/fast"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myclass">
+				<Option output="C:/CPP/ZhiRui/cmake-build-debug/myclass.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/ZhiRui/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 myclass"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myclass/fast">
+				<Option output="C:/CPP/ZhiRui/cmake-build-debug/myclass.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/ZhiRui/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 myclass/fast"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mystruct">
+				<Option output="C:/CPP/ZhiRui/cmake-build-debug/mystruct.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/ZhiRui/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 mystruct"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mystruct/fast">
+				<Option output="C:/CPP/ZhiRui/cmake-build-debug/mystruct.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/ZhiRui/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 mystruct/fast"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Foo">
+				<Option output="C:/CPP/ZhiRui/cmake-build-debug/Foo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/ZhiRui/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 Foo"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Foo/fast">
+				<Option output="C:/CPP/ZhiRui/cmake-build-debug/Foo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/CPP/ZhiRui/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/BC/C/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 Foo/fast"/>
+					<CompileFile command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/BC/C/mingw64/bin/mingw32-make.exe -f &quot;C:/CPP/ZhiRui/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/CPP/ZhiRui/cmake-build-debug"/>
 				<Option type="4"/>
@@ -164,6 +332,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/CPP/ZhiRui/20201109/myclass.cpp">
+			<Option target="myclass"/>
+		</Unit>
+		<Unit filename="C:/CPP/ZhiRui/20201109/mystruct.cpp">
+			<Option target="mystruct"/>
+		</Unit>
+		<Unit filename="C:/CPP/ZhiRui/FooClass/Foo.cpp">
+			<Option target="Lottery"/>
+			<Option target="Foo"/>
+		</Unit>
+		<Unit filename="C:/CPP/ZhiRui/FooClass/Foo.hpp">
+			<Option target="Lottery"/>
+		</Unit>
+		<Unit filename="C:/CPP/ZhiRui/FooClass/Foomain.cpp">
+			<Option target="Foo"/>
+		</Unit>
 		<Unit filename="C:/CPP/ZhiRui/lottery.cpp">
 			<Option target="Lottery"/>
 		</Unit>
@@ -172,6 +356,9 @@
 		</Unit>
 		<Unit filename="C:/CPP/ZhiRui/playground.cpp">
 			<Option target="play"/>
+		</Unit>
+		<Unit filename="C:/CPP/ZhiRui/throW.cpp">
+			<Option target="th"/>
 		</Unit>
 		<Unit filename="C:/CPP/ZhiRui/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

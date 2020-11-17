@@ -168,6 +168,169 @@ play/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/build
 .PHONY : play/fast
 
+#=============================================================================
+# Target rules for targets named th
+
+# Build rule for target.
+th: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 th
+.PHONY : th
+
+# fast build rule for target.
+th/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\th.dir\build.make CMakeFiles/th.dir/build
+.PHONY : th/fast
+
+#=============================================================================
+# Target rules for targets named myclass
+
+# Build rule for target.
+myclass: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 myclass
+.PHONY : myclass
+
+# fast build rule for target.
+myclass/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myclass.dir\build.make CMakeFiles/myclass.dir/build
+.PHONY : myclass/fast
+
+#=============================================================================
+# Target rules for targets named mystruct
+
+# Build rule for target.
+mystruct: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 mystruct
+.PHONY : mystruct
+
+# fast build rule for target.
+mystruct/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mystruct.dir\build.make CMakeFiles/mystruct.dir/build
+.PHONY : mystruct/fast
+
+#=============================================================================
+# Target rules for targets named Foo
+
+# Build rule for target.
+Foo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Foo
+.PHONY : Foo
+
+# fast build rule for target.
+Foo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Foo.dir\build.make CMakeFiles/Foo.dir/build
+.PHONY : Foo/fast
+
+20201109/myclass.obj: 20201109/myclass.cpp.obj
+
+.PHONY : 20201109/myclass.obj
+
+# target to build an object file
+20201109/myclass.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myclass.dir\build.make CMakeFiles/myclass.dir/20201109/myclass.cpp.obj
+.PHONY : 20201109/myclass.cpp.obj
+
+20201109/myclass.i: 20201109/myclass.cpp.i
+
+.PHONY : 20201109/myclass.i
+
+# target to preprocess a source file
+20201109/myclass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myclass.dir\build.make CMakeFiles/myclass.dir/20201109/myclass.cpp.i
+.PHONY : 20201109/myclass.cpp.i
+
+20201109/myclass.s: 20201109/myclass.cpp.s
+
+.PHONY : 20201109/myclass.s
+
+# target to generate assembly for a file
+20201109/myclass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myclass.dir\build.make CMakeFiles/myclass.dir/20201109/myclass.cpp.s
+.PHONY : 20201109/myclass.cpp.s
+
+20201109/mystruct.obj: 20201109/mystruct.cpp.obj
+
+.PHONY : 20201109/mystruct.obj
+
+# target to build an object file
+20201109/mystruct.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mystruct.dir\build.make CMakeFiles/mystruct.dir/20201109/mystruct.cpp.obj
+.PHONY : 20201109/mystruct.cpp.obj
+
+20201109/mystruct.i: 20201109/mystruct.cpp.i
+
+.PHONY : 20201109/mystruct.i
+
+# target to preprocess a source file
+20201109/mystruct.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mystruct.dir\build.make CMakeFiles/mystruct.dir/20201109/mystruct.cpp.i
+.PHONY : 20201109/mystruct.cpp.i
+
+20201109/mystruct.s: 20201109/mystruct.cpp.s
+
+.PHONY : 20201109/mystruct.s
+
+# target to generate assembly for a file
+20201109/mystruct.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mystruct.dir\build.make CMakeFiles/mystruct.dir/20201109/mystruct.cpp.s
+.PHONY : 20201109/mystruct.cpp.s
+
+FooClass/Foo.obj: FooClass/Foo.cpp.obj
+
+.PHONY : FooClass/Foo.obj
+
+# target to build an object file
+FooClass/Foo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lottery.dir\build.make CMakeFiles/Lottery.dir/FooClass/Foo.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Foo.dir\build.make CMakeFiles/Foo.dir/FooClass/Foo.cpp.obj
+.PHONY : FooClass/Foo.cpp.obj
+
+FooClass/Foo.i: FooClass/Foo.cpp.i
+
+.PHONY : FooClass/Foo.i
+
+# target to preprocess a source file
+FooClass/Foo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lottery.dir\build.make CMakeFiles/Lottery.dir/FooClass/Foo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Foo.dir\build.make CMakeFiles/Foo.dir/FooClass/Foo.cpp.i
+.PHONY : FooClass/Foo.cpp.i
+
+FooClass/Foo.s: FooClass/Foo.cpp.s
+
+.PHONY : FooClass/Foo.s
+
+# target to generate assembly for a file
+FooClass/Foo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lottery.dir\build.make CMakeFiles/Lottery.dir/FooClass/Foo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Foo.dir\build.make CMakeFiles/Foo.dir/FooClass/Foo.cpp.s
+.PHONY : FooClass/Foo.cpp.s
+
+FooClass/Foomain.obj: FooClass/Foomain.cpp.obj
+
+.PHONY : FooClass/Foomain.obj
+
+# target to build an object file
+FooClass/Foomain.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Foo.dir\build.make CMakeFiles/Foo.dir/FooClass/Foomain.cpp.obj
+.PHONY : FooClass/Foomain.cpp.obj
+
+FooClass/Foomain.i: FooClass/Foomain.cpp.i
+
+.PHONY : FooClass/Foomain.i
+
+# target to preprocess a source file
+FooClass/Foomain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Foo.dir\build.make CMakeFiles/Foo.dir/FooClass/Foomain.cpp.i
+.PHONY : FooClass/Foomain.cpp.i
+
+FooClass/Foomain.s: FooClass/Foomain.cpp.s
+
+.PHONY : FooClass/Foomain.s
+
+# target to generate assembly for a file
+FooClass/Foomain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Foo.dir\build.make CMakeFiles/Foo.dir/FooClass/Foomain.cpp.s
+.PHONY : FooClass/Foomain.cpp.s
+
 lottery.obj: lottery.cpp.obj
 
 .PHONY : lottery.obj
@@ -249,6 +412,33 @@ playground.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/playground.cpp.s
 .PHONY : playground.cpp.s
 
+throW.obj: throW.cpp.obj
+
+.PHONY : throW.obj
+
+# target to build an object file
+throW.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\th.dir\build.make CMakeFiles/th.dir/throW.cpp.obj
+.PHONY : throW.cpp.obj
+
+throW.i: throW.cpp.i
+
+.PHONY : throW.i
+
+# target to preprocess a source file
+throW.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\th.dir\build.make CMakeFiles/th.dir/throW.cpp.i
+.PHONY : throW.cpp.i
+
+throW.s: throW.cpp.s
+
+.PHONY : throW.s
+
+# target to generate assembly for a file
+throW.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\th.dir\build.make CMakeFiles/th.dir/throW.cpp.s
+.PHONY : throW.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -257,9 +447,25 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Foo
 	@echo ... Lottery
 	@echo ... move
+	@echo ... myclass
+	@echo ... mystruct
 	@echo ... play
+	@echo ... th
+	@echo ... 20201109/myclass.obj
+	@echo ... 20201109/myclass.i
+	@echo ... 20201109/myclass.s
+	@echo ... 20201109/mystruct.obj
+	@echo ... 20201109/mystruct.i
+	@echo ... 20201109/mystruct.s
+	@echo ... FooClass/Foo.obj
+	@echo ... FooClass/Foo.i
+	@echo ... FooClass/Foo.s
+	@echo ... FooClass/Foomain.obj
+	@echo ... FooClass/Foomain.i
+	@echo ... FooClass/Foomain.s
 	@echo ... lottery.obj
 	@echo ... lottery.i
 	@echo ... lottery.s
@@ -269,6 +475,9 @@ help:
 	@echo ... playground.obj
 	@echo ... playground.i
 	@echo ... playground.s
+	@echo ... throW.obj
+	@echo ... throW.i
+	@echo ... throW.s
 .PHONY : help
 
 

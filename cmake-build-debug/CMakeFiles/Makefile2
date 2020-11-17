@@ -75,6 +75,10 @@ CMAKE_BINARY_DIR = C:\CPP\ZhiRui\cmake-build-debug
 all: CMakeFiles/Lottery.dir/all
 all: CMakeFiles/move.dir/all
 all: CMakeFiles/play.dir/all
+all: CMakeFiles/th.dir/all
+all: CMakeFiles/myclass.dir/all
+all: CMakeFiles/mystruct.dir/all
+all: CMakeFiles/Foo.dir/all
 
 .PHONY : all
 
@@ -87,6 +91,10 @@ preinstall:
 clean: CMakeFiles/Lottery.dir/clean
 clean: CMakeFiles/move.dir/clean
 clean: CMakeFiles/play.dir/clean
+clean: CMakeFiles/th.dir/clean
+clean: CMakeFiles/myclass.dir/clean
+clean: CMakeFiles/mystruct.dir/clean
+clean: CMakeFiles/Foo.dir/clean
 
 .PHONY : clean
 
@@ -97,12 +105,12 @@ clean: CMakeFiles/play.dir/clean
 CMakeFiles/Lottery.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lottery.dir\build.make CMakeFiles/Lottery.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lottery.dir\build.make CMakeFiles/Lottery.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\ZhiRui\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Lottery"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\ZhiRui\cmake-build-debug\CMakeFiles --progress-num=4,5,6 "Built target Lottery"
 .PHONY : CMakeFiles/Lottery.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Lottery.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\ZhiRui\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\ZhiRui\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Lottery.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\ZhiRui\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Lottery.dir/rule
@@ -124,7 +132,7 @@ CMakeFiles/Lottery.dir/clean:
 CMakeFiles/move.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\move.dir\build.make CMakeFiles/move.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\move.dir\build.make CMakeFiles/move.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\ZhiRui\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target move"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\ZhiRui\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target move"
 .PHONY : CMakeFiles/move.dir/all
 
 # Build rule for subdir invocation for target.
@@ -151,7 +159,7 @@ CMakeFiles/move.dir/clean:
 CMakeFiles/play.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\ZhiRui\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target play"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\ZhiRui\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target play"
 .PHONY : CMakeFiles/play.dir/all
 
 # Build rule for subdir invocation for target.
@@ -170,6 +178,114 @@ play: CMakeFiles/play.dir/rule
 CMakeFiles/play.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\play.dir\build.make CMakeFiles/play.dir/clean
 .PHONY : CMakeFiles/play.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/th.dir
+
+# All Build rule for target.
+CMakeFiles/th.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\th.dir\build.make CMakeFiles/th.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\th.dir\build.make CMakeFiles/th.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\ZhiRui\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target th"
+.PHONY : CMakeFiles/th.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/th.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\ZhiRui\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/th.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\ZhiRui\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/th.dir/rule
+
+# Convenience name for target.
+th: CMakeFiles/th.dir/rule
+
+.PHONY : th
+
+# clean rule for target.
+CMakeFiles/th.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\th.dir\build.make CMakeFiles/th.dir/clean
+.PHONY : CMakeFiles/th.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/myclass.dir
+
+# All Build rule for target.
+CMakeFiles/myclass.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myclass.dir\build.make CMakeFiles/myclass.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myclass.dir\build.make CMakeFiles/myclass.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\ZhiRui\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target myclass"
+.PHONY : CMakeFiles/myclass.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/myclass.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\ZhiRui\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/myclass.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\ZhiRui\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/myclass.dir/rule
+
+# Convenience name for target.
+myclass: CMakeFiles/myclass.dir/rule
+
+.PHONY : myclass
+
+# clean rule for target.
+CMakeFiles/myclass.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myclass.dir\build.make CMakeFiles/myclass.dir/clean
+.PHONY : CMakeFiles/myclass.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/mystruct.dir
+
+# All Build rule for target.
+CMakeFiles/mystruct.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mystruct.dir\build.make CMakeFiles/mystruct.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mystruct.dir\build.make CMakeFiles/mystruct.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\ZhiRui\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target mystruct"
+.PHONY : CMakeFiles/mystruct.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/mystruct.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\ZhiRui\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/mystruct.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\ZhiRui\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/mystruct.dir/rule
+
+# Convenience name for target.
+mystruct: CMakeFiles/mystruct.dir/rule
+
+.PHONY : mystruct
+
+# clean rule for target.
+CMakeFiles/mystruct.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\mystruct.dir\build.make CMakeFiles/mystruct.dir/clean
+.PHONY : CMakeFiles/mystruct.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Foo.dir
+
+# All Build rule for target.
+CMakeFiles/Foo.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Foo.dir\build.make CMakeFiles/Foo.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Foo.dir\build.make CMakeFiles/Foo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPP\ZhiRui\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target Foo"
+.PHONY : CMakeFiles/Foo.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Foo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\ZhiRui\cmake-build-debug\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Foo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPP\ZhiRui\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Foo.dir/rule
+
+# Convenience name for target.
+Foo: CMakeFiles/Foo.dir/rule
+
+.PHONY : Foo
+
+# clean rule for target.
+CMakeFiles/Foo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Foo.dir\build.make CMakeFiles/Foo.dir/clean
+.PHONY : CMakeFiles/Foo.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

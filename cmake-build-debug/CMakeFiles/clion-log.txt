@@ -1,4 +1,7 @@
 C:\Users\XM\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\202.7660.37\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\CPP\ZhiRui
+Hello World
+-- This is BINARY dir C:/CPP/ZhiRui
+-- This is SOURCE dir C:/CPP/ZhiRui/cmake-build-debug
 -- Configuring done
 -- Generating done
 -- Build files have been written to: C:/CPP/ZhiRui/cmake-build-debug

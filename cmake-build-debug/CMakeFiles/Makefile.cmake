@@ -56,4 +56,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Lottery.dir/DependInfo.cmake"
   "CMakeFiles/move.dir/DependInfo.cmake"
   "CMakeFiles/play.dir/DependInfo.cmake"
+  "CMakeFiles/th.dir/DependInfo.cmake"
+  "CMakeFiles/myclass.dir/DependInfo.cmake"
+  "CMakeFiles/mystruct.dir/DependInfo.cmake"
+  "CMakeFiles/Foo.dir/DependInfo.cmake"
   )

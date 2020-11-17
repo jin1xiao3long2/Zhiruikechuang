@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Lottery.dir/FooClass/Foo.cpp.obj"
   "CMakeFiles/Lottery.dir/lottery.cpp.obj"
   "Lottery.exe"
   "Lottery.exe.manifest"
